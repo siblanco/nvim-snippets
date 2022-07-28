@@ -1,6 +1,6 @@
 {
   "@mediaQuery": {
     "prefix": "@mm",
-    "body": "@media screen and (${!:min-width: 300px}) {\n  $0\n}"
+    "body": "@media screen and (min-width: $0px) {\n  $1\n}"
   }
 }
