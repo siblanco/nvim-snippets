@@ -1,0 +1,33 @@
+{
+    "Export Functional Component": {
+        "prefix": "efc",
+        "body": [
+            "type $1TExampleProps = {",
+            "",
+            "};",
+            "",
+            "export function Example({}: TExampleProps): JSX.Element {",
+            "    return (",
+            "        <div>",
+            "            <h1>Hello Master</h1>",
+            "        </div>",
+            "    );",
+            "}",
+            ""
+        ],
+        "description": "Export Functional Component"
+    },
+    "Export Default Functional Component": {
+        "prefix": "edfc",
+        "body": [
+            "export default function $1(): JSX.Element {",
+            "    return (",
+            "        <div>",
+            "            <h1>yo me master</h1>",
+            "        </div>",
+            "    );",
+            "}"
+        ],
+        "description": "NextJS Page"
+    }
+}

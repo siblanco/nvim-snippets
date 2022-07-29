@@ -1,0 +1,25 @@
+{
+    "Print to console": {
+        "prefix": "log",
+        "body": ["console.log($1);", "$2"],
+        "description": "Log output to console"
+    },
+
+    "Stimulus Use Controller": {
+        "prefix": "suc",
+        "body": [
+            "import { ApplicationController } from 'stimulus-use';",
+            "",
+            "export default class extends ApplicationController {",
+            "    declare readonly $1Target: HTMLElement;",
+            "",
+            "    static targets = ['$2'];",
+            "    static classes = [];",
+            "    static values = {",
+            "        ",
+            "    };",
+            "}"
+        ],
+        "description": "Stimulus Use Controller"
+    }
+}

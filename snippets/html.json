@@ -1,0 +1,43 @@
+{
+	"PHP IF": {
+		"prefix": "phpif",
+		"body": [
+			"<?php if($$1) { ?>",
+			"    $2",
+			"<?php } ?>"
+		],
+		"description": "PHP IF"
+	},
+	"PHP FOREACH": {
+		"prefix": "phpfor",
+		"body": [
+			"<?php foreach($$1 as $$2) { ?>",
+			"    $3",
+			"<?php } ?>"
+		],
+		"description": "PHP FOREACH"
+	},
+	"PHP WHILE": {
+		"prefix": "phpwhile",
+		"body": [
+			"<?php while($$1 = $$2) { ?>",
+			"    $3",
+			"<?php } ?>"
+		],
+		"description": "PHP FOREACH"
+	},
+	"PHP ECHO": {
+		"prefix": "phpe",
+		"body": [
+			"<?= $1; ?>"
+		],
+		"description": "PHP ECHO"
+	},
+    "PHP": {
+		"prefix": "php",
+		"body": [
+			"<?php$1?>"
+		],
+		"description": "PHP"
+	}
+}

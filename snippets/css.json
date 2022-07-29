@@ -1,6 +1,11 @@
 {
-  "mediaQuery": {
-    "prefix": "@mm",
-    "body": "@media screen and (min-width: $1px) {\n  $2\n}"
-  }
+	"Media Query": {
+		"prefix": "@mm",
+		"body": [
+			"@media screen and (min-width: ${1:width}px) {",
+			"    ",
+			"}"
+		],
+		"description": "Media Query"
+	}
 }

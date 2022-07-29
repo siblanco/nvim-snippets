@@ -13,7 +13,31 @@
           "less",
           "stylus"
         ],
-        "path": "./snippets/css.json"
+        "path": "./snippets/scss.json"
+      },
+      {
+        "language": [
+          "html",
+          "php",
+          "twig"
+        ],
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "vue",
+          "svelte",
+          "typescript"
+        ],
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": [
+          "typescriptreact",
+          "javascriptreact"
+        ],
+        "path": "./snippets/typescriptreact.json"
       }
     ]
   }
