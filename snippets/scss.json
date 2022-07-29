@@ -44,5 +44,35 @@
 		  "width: 100%;"
 		],
 		"description": "Absolute full"
+	},
+	"Display Block": {
+		"prefix": "db",
+		"body": [
+		  "display: block;"
+		]
+	},
+  "Display Flex": {
+		"prefix": "df",
+		"body": [
+		  "display: flex;"
+		]
+	},
+	"Display None": {
+		"prefix": "dn",
+		"body": [
+		  "display: none;"
+		]
+	},
+	"Display Inline-Flex": {
+		"prefix": "dif",
+		"body": [
+		  "display: inline-flex;"
+		]
+	},
+	"Display Inline": {
+		"prefix": "di",
+		"body": [
+		  "display: inline;"
+		]
 	}
 }
