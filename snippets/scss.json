@@ -1,78 +1,78 @@
 {
-	"Media Query": {
-		"prefix": "@mm",
-		"body": [
-			"@media screen and (min-width: ${1:width}px) {",
-			"$2    ",
-			"}"
-		],
-		"description": "Media Query"
-	},
-	"Absolute + Object Fit": {
-		"prefix": "abso",
-		"body": [
-		  "position: absolute;",
-		  "height: 100%;",
-		  "width: 100%;",
-		  "object-fit: cover;"
-		],
-		"description": "Absolute + Object Fit"
-	},
-	  "Animate Opacity": {
-		"prefix": "animo",
-		"body": [
-		  "opacity: 0;",
-		  "visibility: hidden;",
-		  "transition: opacity 0.2s ease-out, visibility 0.2s;"
-		],
-		"description": "Animate Opacity"
-	},
-	"Animate Height": {
-		"prefix": "animh",
-		"body": [
-		  "height: 0;",
-		  "overflow: hidden;",
-		  "transition: height 0.2s;"
-		],
-		"description": "Animate Height"
-	},
-	"Absolute full": {
-		"prefix": "absf",
-		"body": [
-		  "position: absolute;",
-		  "height: 100%;",
-		  "width: 100%;"
-		],
-		"description": "Absolute full"
-	},
-	"Display Block": {
-		"prefix": "db",
-		"body": [
-		  "display: block;"
-		]
-	},
+  "Media Query": {
+    "prefix": "@mm",
+    "body": [
+      "@media screen and (min-width: ${1:width}px) {",
+      "$2",
+      "}"
+    ],
+    "description": "Media Query"
+  },
+  "Absolute + Object Fit": {
+    "prefix": "abso",
+    "body": [
+      "position: absolute;",
+      "height: 100%;",
+      "width: 100%;",
+      "object-fit: cover;"
+    ],
+    "description": "Absolute + Object Fit"
+  },
+  "Animate Opacity": {
+    "prefix": "animo",
+    "body": [
+      "opacity: 0;",
+      "visibility: hidden;",
+      "transition: opacity 0.2s ease-out, visibility 0.2s;"
+    ],
+    "description": "Animate Opacity"
+  },
+  "Animate Height": {
+    "prefix": "animh",
+    "body": [
+      "height: 0;",
+      "overflow: hidden;",
+      "transition: height 0.2s;"
+    ],
+    "description": "Animate Height"
+  },
+  "Absolute full": {
+    "prefix": "absf",
+    "body": [
+      "position: absolute;",
+      "height: 100%;",
+      "width: 100%;"
+    ],
+    "description": "Absolute full"
+  },
+  "Display Block": {
+    "prefix": "db",
+    "body": [
+      "display: block;"
+    ]
+  },
   "Display Flex": {
-		"prefix": "df",
-		"body": [
-		  "display: flex;"
-		]
-	},
-	"Display None": {
-		"prefix": "dn",
-		"body": [
-		  "display: none;"
-		]
-	},
-	"Display Inline-Flex": {
-		"prefix": "dif",
-		"body": [
-		  "display: inline-flex;"
-		]
-	},
-	"Display Inline": {
-		"prefix": "di",
-		"body": [
-		  "display: inline;"
-		]
-	}
+    "prefix": "df",
+    "body": [
+      "display: flex;"
+    ]
+  },
+  "Display None": {
+    "prefix": "dn",
+    "body": [
+      "display: none;"
+    ]
+  },
+  "Display Inline-Flex": {
+    "prefix": "dif",
+    "body": [
+      "display: inline-flex;"
+    ]
+  },
+  "Display Inline": {
+    "prefix": "di",
+    "body": [
+      "display: inline;"
+    ]
+  }
 }
