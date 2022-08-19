@@ -1,6 +1,6 @@
 {
   "Media Query": {
-    "prefix": "@mm",
+    "prefix": "@mmw",
     "body": [
       "@media screen and (min-width: ${1:width}px) {",
       "    $2",
